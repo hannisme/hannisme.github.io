@@ -1,0 +1,50 @@
+table{
+    background-color: black;
+    border-radius: 4px;
+    margin: 6px;
+}
+button {
+    width: 100%;
+    background-color:darkgray;
+    border-radius: 4px;
+    color: white;
+    margin-bottom: 10px;
+    display: flex;
+    text-align: center;
+}
+
+#AC {
+    background-color: rgb(255, 182, 192);
+}
+
+#C {
+    background-color: rgb(255, 182, 192);
+}
+
+#kali {
+    background-color: rgb(145, 143, 143);
+}
+
+#bagi{
+    background-color: rgb(145, 143, 143);
+}
+
+#tambah{
+    background-color: rgb(145, 143, 143);
+}
+
+#kurang{
+    background-color: rgb(145, 143, 143);
+}
+
+#samadengan{
+    background-color: rgb(145, 143, 143);
+}
+
+#koma{
+    background-color: rgb(145, 143, 143);
+}
+
+#plusminus{
+    background-color: rgb(145, 143, 143);
+}

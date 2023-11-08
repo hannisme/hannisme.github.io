@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <link rel="stylesheet" href="css/style.css">
+       
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th colspan="4"><input name="display" class="input" id="display"></th>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button class="button AC" onclick="buttonclick(this.innerText)" id="AC" >AC</button>
+                </td>
+                <td>
+                    <button class="button" onclick="buttonclick(this.innerText)" id="C">C</button>
+                </td>
+                <td>
+                    <button class="button" value="*" onclick="buttonclick(this.innerText)" id="kali">*</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="button" value="7" onclick="buttonclick(this.innerText)">7</button>
+                </td>
+                <td>
+                    <button class="button" value="8" onclick="buttonclick(this.innerText)">8</button>
+                </td>
+                <td>
+                    <button class="button" value="9" onclick="buttonclick(this.innerText)">9</button>
+                </td>
+                <td>
+                    <button class="button" value="/" onclick="buttonclick(this.innerText)" id="bagi">/</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="button" value="4" onclick="buttonclick(this.innerText)">4</button>
+                </td>
+                <td>
+                    <button class="button" value="5" onclick="buttonclick(this.innerText)">5</button>
+                </td>
+                <td>
+                    <button class="button" value="6" onclick="buttonclick(this.innerText)">6</button>
+                </td>
+                <td>
+                    <button class="button" value="+" onclick="buttonclick(this.innerText)"id="tambah">+</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="button" value="1" onclick="buttonclick(this.innerText)">1</button>
+                </td>
+                <td>
+                    <button class="button" value="2" onclick="buttonclick(this.innerText)">2</button>
+                </td>
+                <td>
+                    <button class="button" value="3" onclick="buttonclick(this.innerText)">3</button>
+                </td>
+                <td>
+                    <button class="button" value="-" onclick="buttonclick(this.innerText)" id="kurang">-</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="button" onclick="buttonclick(this.innerText)" id="plusminus">+-</button>
+                </td>
+                <td>
+                    <button class="button" value="0" onclick="buttonclick()">0</button>
+                </td>
+                <td>
+                    <button class="button" onclick="buttonclick(this.innerText)" id="koma">.</button>
+                </td>
+                <td>
+                    <button class="button" onclick="buttonclick(this.innerText)" id="samadengan">=</button>
+                </td>
+            </tr>
+        </table>
+        <script src="js/index.js"></script>
+    </body>
+</html>
